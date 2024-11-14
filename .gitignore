@@ -1,0 +1,20 @@
+# Ignorar configuraciones locales
+wp-config.php
+.htaccess
+
+# Ignorar la carpeta de uploads (archivos subidos por los usuarios)
+wp-content/uploads/
+
+# Ignorar archivos temporales y de caché
+*.log
+*.tmp
+.DS_Store  # Archivo de sistema en Mac
+Thumbs.db  # Archivo de sistema en Windows
+
+# Ignorar plugins y temas específicos (opcional)
+wp-content/plugins/mi-plugin-personal/
+wp-content/themes/mi-tema-personal/
+
+# Ignorar archivos de versiones y dependencias del sistema
+node_modules/
+vendor/
